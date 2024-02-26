@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cqtt4rv0on26t"
-path="res://.godot/imported/TheButtonGameMainMenu.png-3a7cce7361173d9495a2b9e6515ec99d.ctex"
+uid="uid://cs722ue2uhqvv"
+path="res://.godot/imported/golden_button_unpressed.png-286dceace10ee5655dee14d31ca8b623.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TheButtonGameMainMenu.png"
-dest_files=["res://.godot/imported/TheButtonGameMainMenu.png-3a7cce7361173d9495a2b9e6515ec99d.ctex"]
+source_file="res://assets/textures/golden_button_unpressed.png"
+dest_files=["res://.godot/imported/golden_button_unpressed.png-286dceace10ee5655dee14d31ca8b623.ctex"]
 
 [params]
 

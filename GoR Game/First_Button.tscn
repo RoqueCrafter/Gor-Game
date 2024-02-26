@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmph107bcrlam"]
+
+[ext_resource type="Texture2D" uid="uid://b8fnm0j5exlr" path="res://assets/textures/button_unpressed.png" id="1_to4bk"]
+
+[node name="First Button" type="Node2D"]
+
+[node name="First Button" type="Button" parent="."]
+offset_left = 110.0
+offset_top = 85.0
+offset_right = 711.0
+offset_bottom = 575.0
+icon = ExtResource("1_to4bk")
