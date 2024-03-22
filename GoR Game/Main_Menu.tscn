@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3yeefdfs5j3u"]
+
+[ext_resource type="Script" path="res://Main_Menu_Script.gd" id="1_lg6vt"]
+[ext_resource type="Texture2D" uid="uid://nkwy0llhxti2" path="res://assets/oeijbklb.bmp" id="2_0tp43"]
+
+[node name="Main_Menu_Scene" type="Node2D"]
+script = ExtResource("1_lg6vt")
+
+[node name="PlayButton" type="Button" parent="."]
+offset_left = 448.0
+offset_top = 400.0
+offset_right = 659.0
+offset_bottom = 605.0
+text = "Play"
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(578, 189.5)
+scale = Vector2(1.445, 0.631667)
+texture = ExtResource("2_0tp43")
+
+[node name="OptionsButton" type="Button" parent="."]
+offset_left = 94.0
+offset_top = 458.0
+offset_right = 366.0
+offset_bottom = 555.0
+text = "Options"
+
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 853.0
+offset_top = 434.0
+offset_right = 968.0
+offset_bottom = 537.0
+text = "QUIT
+"
+
+[connection signal="button_down" from="PlayButton" to="." method="_on_play_button_button_down"]
+[connection signal="pressed" from="OptionsButton" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]
